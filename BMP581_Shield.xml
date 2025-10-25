@@ -1,0 +1,1125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Julien\Documents\StationMeteo\Schematics\StationMeteo\BMP581_Shield\BMP581_Shield.kicad_sch</source>
+    <date>09/09/2024 22:16:02</date>
+    <tool>Eeschema 7.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Shield pour BMP581</title>
+        <company/>
+        <rev>A</rev>
+        <date>2024-08-15</date>
+        <source>BMP581_Shield.kicad_sch</source>
+        <comment number="1" value="Auteur : Julien Cruvieux"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>2.2µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5f8549d-2e56-4da4-a5f3-32ac75b42ea9</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>2.2µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c2a2dcf-28eb-421d-98fb-643a06329c2c</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1affdc91-114c-4e6c-b6ff-3a4485fcc517</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>2.2µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cec907d2-c196-4f42-9577-5038fc204a85</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>2.2µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e70a555-7b5f-4ba8-9e84-d7f078adeb8b</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c757e4b-a2b3-4c37-8b6a-9c14e70808aa</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>SD05_SOD323</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf</datasheet>
+      <libsource lib="Diode" part="SD05_SOD323" description="5V, 450W Discrete Bidirectional TVS Diode, SOD-323"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="5V, 450W Discrete Bidirectional TVS Diode, SOD-323"/>
+      <property name="ki_keywords" value="transient voltage suppressor thyrector transil"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9834c8f3-70ce-4676-9cc7-6b0e3b0b4549</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>SD05_SOD323</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf</datasheet>
+      <libsource lib="Diode" part="SD05_SOD323" description="5V, 450W Discrete Bidirectional TVS Diode, SOD-323"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="5V, 450W Discrete Bidirectional TVS Diode, SOD-323"/>
+      <property name="ki_keywords" value="transient voltage suppressor thyrector transil"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8d403a2-66ce-4a0c-ae9e-5157d574ec46</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>SD05_SOD323</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf</datasheet>
+      <libsource lib="Diode" part="SD05_SOD323" description="5V, 450W Discrete Bidirectional TVS Diode, SOD-323"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="5V, 450W Discrete Bidirectional TVS Diode, SOD-323"/>
+      <property name="ki_keywords" value="transient voltage suppressor thyrector transil"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46d77d71-5552-475e-9a3b-795149b575b1</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>SD05_SOD323</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf</datasheet>
+      <libsource lib="Diode" part="SD05_SOD323" description="5V, 450W Discrete Bidirectional TVS Diode, SOD-323"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="5V, 450W Discrete Bidirectional TVS Diode, SOD-323"/>
+      <property name="ki_keywords" value="transient voltage suppressor thyrector transil"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed3b9bfd-b94f-49eb-936f-bb6d7a501bf8</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>MBR0520</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf</datasheet>
+      <libsource lib="Diode" part="MBR0520" description="20V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="20V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b19d8d23-e534-4fb2-99d9-a7b93958afca</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>MBR0520</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf</datasheet>
+      <libsource lib="Diode" part="MBR0520" description="20V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="20V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f81e286e-00cb-4756-944c-6403f17e885d</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>ADP1715ARMZ-3.3-R7</value>
+      <footprint>SOP65P490X110-8N</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/ADP1715_1716.pdf</datasheet>
+      <fields>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">ADP1715ARMZ-3.3-R7</field>
+        <field name="Mouser Part Number">584-ADP1715ARMZ3.3R7</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADP1715ARMZ-3.3-R7?qs=WIvQP4zGangwvEjYWS0N2Q%3D%3D</field>
+      </fields>
+      <libsource lib="ADP1715ARMZ-3_3-R7" part="ADP1715ARMZ-3.3-R7" description="Analog Devices ADP1715ARMZ-3.3-R7, LDO Regulator, 500mA, 3.3 V, +/-3%, 2.5  5.5 Vin 8-Pin, MSOP"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="584-ADP1715ARMZ3.3R7"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADP1715ARMZ-3.3-R7?qs=WIvQP4zGangwvEjYWS0N2Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Analog Devices"/>
+      <property name="Manufacturer_Part_Number" value="ADP1715ARMZ-3.3-R7"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="Analog Devices ADP1715ARMZ-3.3-R7, LDO Regulator, 500mA, 3.3 V, +/-3%, 2.5  5.5 Vin 8-Pin, MSOP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8f52841-da1b-4708-aac0-738241ff3d18</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>ADP1715ARMZ-3.3-R7</value>
+      <footprint>SOP65P490X110-8N</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/ADP1715_1716.pdf</datasheet>
+      <fields>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">ADP1715ARMZ-3.3-R7</field>
+        <field name="Mouser Part Number">584-ADP1715ARMZ3.3R7</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADP1715ARMZ-3.3-R7?qs=WIvQP4zGangwvEjYWS0N2Q%3D%3D</field>
+      </fields>
+      <libsource lib="ADP1715ARMZ-3_3-R7" part="ADP1715ARMZ-3.3-R7" description="Analog Devices ADP1715ARMZ-3.3-R7, LDO Regulator, 500mA, 3.3 V, +/-3%, 2.5  5.5 Vin 8-Pin, MSOP"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="584-ADP1715ARMZ3.3R7"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADP1715ARMZ-3.3-R7?qs=WIvQP4zGangwvEjYWS0N2Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Analog Devices"/>
+      <property name="Manufacturer_Part_Number" value="ADP1715ARMZ-3.3-R7"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="Analog Devices ADP1715ARMZ-3.3-R7, LDO Regulator, 500mA, 3.3 V, +/-3%, 2.5  5.5 Vin 8-Pin, MSOP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82763171-aeec-4ea3-90b7-f82af1d290cf</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>M50-3030842</value>
+      <footprint>KiCad_M503030842:M503030842</footprint>
+      <datasheet>https://cdn.harwin.com/pdfs/M50-303.pdf</datasheet>
+      <fields>
+        <field name="Height">4.55</field>
+        <field name="Manufacturer_Name">Harwin</field>
+        <field name="Manufacturer_Part_Number">M50-3030842</field>
+        <field name="Mouser Part Number">855-M50-3030842</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Harwin/M50-3030842?qs=%252BdQmOuGyFcEVh5gBUNIiFA%3D%3D</field>
+      </fields>
+      <libsource lib="M50-3030842" part="M50-3030842" description="1.27mm (0.05&quot;) Pitch SIL Vertical Throughboard Socket Assembly, gold, 8 contacts"/>
+      <property name="Height" value="4.55"/>
+      <property name="Manufacturer_Name" value="Harwin"/>
+      <property name="Manufacturer_Part_Number" value="M50-3030842"/>
+      <property name="Mouser Part Number" value="855-M50-3030842"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Harwin/M50-3030842?qs=%252BdQmOuGyFcEVh5gBUNIiFA%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="1.27mm (0.05&quot;) Pitch SIL Vertical Throughboard Socket Assembly, gold, 8 contacts"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9397ef5b-dc77-46b1-b78c-ab2f443ee5ce</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>M50-3031042</value>
+      <footprint>KiCad_M503031042:M503031042</footprint>
+      <datasheet>https://cdn.harwin.com/pdfs/M50-303.pdf</datasheet>
+      <fields>
+        <field name="Height">4.55</field>
+        <field name="Manufacturer_Name">Harwin</field>
+        <field name="Manufacturer_Part_Number">M50-3031042</field>
+        <field name="Mouser Part Number">855-M50-3031042</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Harwin/M50-3031042?qs=%252BdQmOuGyFcGr7bDrWORUuA%3D%3D</field>
+      </fields>
+      <libsource lib="M50-3031042" part="M50-3031042" description="1.27mm (0.05&quot;) Pitch SIL Vertical Throughboard Socket Assembly, gold, 10 contacts"/>
+      <property name="Height" value="4.55"/>
+      <property name="Manufacturer_Name" value="Harwin"/>
+      <property name="Manufacturer_Part_Number" value="M50-3031042"/>
+      <property name="Mouser Part Number" value="855-M50-3031042"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Harwin/M50-3031042?qs=%252BdQmOuGyFcGr7bDrWORUuA%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="1.27mm (0.05&quot;) Pitch SIL Vertical Throughboard Socket Assembly, gold, 10 contacts"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0bd4a9cc-9299-4824-a7d9-c6a38867b4c4</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>61301621821</value>
+      <footprint>KiCad_61301621821:RHDR16W79P254X254_2X8_2082X508X860P</footprint>
+      <datasheet>http://katalog.we-online.de/em/datasheet/6130xx21821.pdf</datasheet>
+      <fields>
+        <field name="Height">8.6</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">61301621821</field>
+        <field name="Mouser Part Number">710-61301621821</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61301621821?qs=GedFDFLaBXGpn7FxmOhVBw%3D%3D</field>
+      </fields>
+      <libsource lib="61301621821" part="61301621821" description="WURTH ELEKTRONIK - 61301621821 - CONNECTOR, RCPT, 16POS, 2ROW, 2.54MM"/>
+      <property name="Height" value="8.6"/>
+      <property name="Mouser Part Number" value="710-61301621821"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61301621821?qs=GedFDFLaBXGpn7FxmOhVBw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="61301621821"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="WURTH ELEKTRONIK - 61301621821 - CONNECTOR, RCPT, 16POS, 2ROW, 2.54MM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eef4ddd6-5420-492c-b4e7-1b397f917898</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>61300311121</value>
+      <footprint>KiCad_61300311121:HDRV3W64P0X254_1X3_762X254X869P</footprint>
+      <datasheet>http://katalog.we-online.de/em/datasheet/6130xx11121.pdf</datasheet>
+      <fields>
+        <field name="Height">8.69</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">61300311121</field>
+        <field name="Mouser Part Number">710-61300311121</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300311121?qs=PhR8RmCirEYxRWFJzNKsUw%3D%3D</field>
+      </fields>
+      <libsource lib="61300311121" part="61300311121" description="HEADER 3 POSITION 2.54MM 0.100&quot; VERTICLE UNSHROUDED BREAKAWAY THROUGH-HOLE"/>
+      <property name="Height" value="8.69"/>
+      <property name="Mouser Part Number" value="710-61300311121"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300311121?qs=PhR8RmCirEYxRWFJzNKsUw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="61300311121"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="HEADER 3 POSITION 2.54MM 0.100&quot; VERTICLE UNSHROUDED BREAKAWAY THROUGH-HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7379786e-8359-4dd9-bec5-e3bf3121fa67</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>61300211121</value>
+      <footprint>KiCad_61300211121:HDRV2W110P0X254_1X2_508X254X854P</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/61300211121.pdf</datasheet>
+      <fields>
+        <field name="Height">8.54</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">61300211121</field>
+        <field name="Mouser Part Number">710-61300211121</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D</field>
+      </fields>
+      <libsource lib="61300211121" part="61300211121" description="WURTH ELEKTRONIK - 61300211121 - HEADER, 2.54MM, PIN, THT, VERTICAL, 2WAY"/>
+      <property name="Height" value="8.54"/>
+      <property name="Mouser Part Number" value="710-61300211121"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="61300211121"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="WURTH ELEKTRONIK - 61300211121 - HEADER, 2.54MM, PIN, THT, VERTICAL, 2WAY"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>390ad98c-7690-457a-ab2d-022112752973</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>61300211121</value>
+      <footprint>KiCad_61300211121:HDRV2W110P0X254_1X2_508X254X854P</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/61300211121.pdf</datasheet>
+      <fields>
+        <field name="Height">8.54</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">61300211121</field>
+        <field name="Mouser Part Number">710-61300211121</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D</field>
+      </fields>
+      <libsource lib="61300211121" part="61300211121" description="WURTH ELEKTRONIK - 61300211121 - HEADER, 2.54MM, PIN, THT, VERTICAL, 2WAY"/>
+      <property name="Height" value="8.54"/>
+      <property name="Mouser Part Number" value="710-61300211121"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="61300211121"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="WURTH ELEKTRONIK - 61300211121 - HEADER, 2.54MM, PIN, THT, VERTICAL, 2WAY"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1569b2c6-abd3-49b1-96df-80a68d1cfa38</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>61300211121</value>
+      <footprint>KiCad_61300211121:HDRV2W110P0X254_1X2_508X254X854P</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/61300211121.pdf</datasheet>
+      <fields>
+        <field name="Height">8.54</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">61300211121</field>
+        <field name="Mouser Part Number">710-61300211121</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D</field>
+      </fields>
+      <libsource lib="61300211121" part="61300211121" description="WURTH ELEKTRONIK - 61300211121 - HEADER, 2.54MM, PIN, THT, VERTICAL, 2WAY"/>
+      <property name="Height" value="8.54"/>
+      <property name="Mouser Part Number" value="710-61300211121"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="61300211121"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="WURTH ELEKTRONIK - 61300211121 - HEADER, 2.54MM, PIN, THT, VERTICAL, 2WAY"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34f1888e-441a-4b4d-b168-b7da01fef9e2</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>61300211121</value>
+      <footprint>KiCad_61300211121:HDRV2W110P0X254_1X2_508X254X854P</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/61300211121.pdf</datasheet>
+      <fields>
+        <field name="Height">8.54</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">61300211121</field>
+        <field name="Mouser Part Number">710-61300211121</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D</field>
+      </fields>
+      <libsource lib="61300211121" part="61300211121" description="WURTH ELEKTRONIK - 61300211121 - HEADER, 2.54MM, PIN, THT, VERTICAL, 2WAY"/>
+      <property name="Height" value="8.54"/>
+      <property name="Mouser Part Number" value="710-61300211121"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="61300211121"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="WURTH ELEKTRONIK - 61300211121 - HEADER, 2.54MM, PIN, THT, VERTICAL, 2WAY"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a14c0b5-21ec-4266-9e84-858f52d07071</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>61300211121</value>
+      <footprint>KiCad_61300211121:HDRV2W110P0X254_1X2_508X254X854P</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/61300211121.pdf</datasheet>
+      <fields>
+        <field name="Height">8.54</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">61300211121</field>
+        <field name="Mouser Part Number">710-61300211121</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D</field>
+      </fields>
+      <libsource lib="61300211121" part="61300211121" description="WURTH ELEKTRONIK - 61300211121 - HEADER, 2.54MM, PIN, THT, VERTICAL, 2WAY"/>
+      <property name="Height" value="8.54"/>
+      <property name="Mouser Part Number" value="710-61300211121"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="61300211121"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="WURTH ELEKTRONIK - 61300211121 - HEADER, 2.54MM, PIN, THT, VERTICAL, 2WAY"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14ecb72a-8de0-40c3-822a-37467b20cd91</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>61300211121</value>
+      <footprint>KiCad_61300211121:HDRV2W110P0X254_1X2_508X254X854P</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/61300211121.pdf</datasheet>
+      <fields>
+        <field name="Height">8.54</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">61300211121</field>
+        <field name="Mouser Part Number">710-61300211121</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D</field>
+      </fields>
+      <libsource lib="61300211121" part="61300211121" description="WURTH ELEKTRONIK - 61300211121 - HEADER, 2.54MM, PIN, THT, VERTICAL, 2WAY"/>
+      <property name="Height" value="8.54"/>
+      <property name="Mouser Part Number" value="710-61300211121"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="61300211121"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="WURTH ELEKTRONIK - 61300211121 - HEADER, 2.54MM, PIN, THT, VERTICAL, 2WAY"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cba9160-2bf3-412e-9ce0-11cc39c0c12d</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>HSMG-C150</value>
+      <footprint>KiCad_HSMG-C150:LEDC3216X120N</footprint>
+      <datasheet>https://docs.broadcom.com/docs/AV02-0551EN</datasheet>
+      <fields>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Avago Technologies</field>
+        <field name="Manufacturer_Part_Number">HSMG-C150</field>
+        <field name="Mouser Part Number">630-HSMG-C150</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMG-C150?qs=YDL0qNrpDT6zJe9nNPPiZQ%3D%3D</field>
+      </fields>
+      <libsource lib="HSMG-C150" part="HSMG-C150" description="Broadcom2.2 V Green LED 3216 (1206)  SMD, HSMG-C150"/>
+      <property name="Height" value="1.2"/>
+      <property name="Mouser Part Number" value="630-HSMG-C150"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMG-C150?qs=YDL0qNrpDT6zJe9nNPPiZQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Avago Technologies"/>
+      <property name="Manufacturer_Part_Number" value="HSMG-C150"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="Broadcom2.2 V Green LED 3216 (1206)  SMD, HSMG-C150"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9def50ed-a4e5-4d3f-9c9e-da9668968f6e</tstamps>
+    </comp>
+    <comp ref="LED2">
+      <value>HSMG-C150</value>
+      <footprint>KiCad_HSMG-C150:LEDC3216X120N</footprint>
+      <datasheet>https://docs.broadcom.com/docs/AV02-0551EN</datasheet>
+      <fields>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Avago Technologies</field>
+        <field name="Manufacturer_Part_Number">HSMG-C150</field>
+        <field name="Mouser Part Number">630-HSMG-C150</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMG-C150?qs=YDL0qNrpDT6zJe9nNPPiZQ%3D%3D</field>
+      </fields>
+      <libsource lib="HSMG-C150" part="HSMG-C150" description="Broadcom2.2 V Green LED 3216 (1206)  SMD, HSMG-C150"/>
+      <property name="Height" value="1.2"/>
+      <property name="Mouser Part Number" value="630-HSMG-C150"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMG-C150?qs=YDL0qNrpDT6zJe9nNPPiZQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Avago Technologies"/>
+      <property name="Manufacturer_Part_Number" value="HSMG-C150"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="Broadcom2.2 V Green LED 3216 (1206)  SMD, HSMG-C150"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0562c6c1-6a7b-4c75-be95-961a20b20589</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>369ca8b3-4f12-4dc2-819c-1feec7c08ae9</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e15898a1-a2da-4174-95bf-ffdc9c6a07d9</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c787e50d-b7e3-442f-931a-57ecc002646b</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>685f8c9d-65d3-482e-b318-e7abb959d0d5</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68f98599-6896-4722-ac65-969858b588a2</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>450301014042</value>
+      <footprint>KiCad_450301014042:450301014042</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/DKDS-9/165080.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">450301014042</field>
+        <field name="Mouser Part Number">710-450301014042</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/450301014042?qs=wr8lucFkNMW0uepaR4R%2Fww%3D%3D</field>
+      </fields>
+      <libsource lib="450301014042" part="450301014042" description="Mini Slide Switch 10x2.5mm SPDT on / on Through Hole Slide Switch SPDT On-On 100 mA@ 42 V dc Slide"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="710-450301014042"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/450301014042?qs=wr8lucFkNMW0uepaR4R%2Fww%3D%3D"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="450301014042"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="Mini Slide Switch 10x2.5mm SPDT on / on Through Hole Slide Switch SPDT On-On 100 mA@ 42 V dc Slide"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2617398a-d3e6-4667-bf86-e7492d461e63</tstamps>
+    </comp>
+    <comp ref="S2">
+      <value>450301014042</value>
+      <footprint>KiCad_450301014042:450301014042</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/DKDS-9/165080.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">450301014042</field>
+        <field name="Mouser Part Number">710-450301014042</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/450301014042?qs=wr8lucFkNMW0uepaR4R%2Fww%3D%3D</field>
+      </fields>
+      <libsource lib="450301014042" part="450301014042" description="Mini Slide Switch 10x2.5mm SPDT on / on Through Hole Slide Switch SPDT On-On 100 mA@ 42 V dc Slide"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="710-450301014042"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/450301014042?qs=wr8lucFkNMW0uepaR4R%2Fww%3D%3D"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="450301014042"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="Mini Slide Switch 10x2.5mm SPDT on / on Through Hole Slide Switch SPDT On-On 100 mA@ 42 V dc Slide"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1748a971-e309-4d76-affc-5fb3ca32185d</tstamps>
+    </comp>
+    <comp ref="S3">
+      <value>450301014042</value>
+      <footprint>KiCad_450301014042:450301014042</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/DKDS-9/165080.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">450301014042</field>
+        <field name="Mouser Part Number">710-450301014042</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/450301014042?qs=wr8lucFkNMW0uepaR4R%2Fww%3D%3D</field>
+      </fields>
+      <libsource lib="450301014042" part="450301014042" description="Mini Slide Switch 10x2.5mm SPDT on / on Through Hole Slide Switch SPDT On-On 100 mA@ 42 V dc Slide"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="710-450301014042"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/450301014042?qs=wr8lucFkNMW0uepaR4R%2Fww%3D%3D"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="450301014042"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="Mini Slide Switch 10x2.5mm SPDT on / on Through Hole Slide Switch SPDT On-On 100 mA@ 42 V dc Slide"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78a15efb-8c6a-499b-b405-5ac7b588d504</tstamps>
+    </comp>
+    <comp ref="S4">
+      <value>450301014042</value>
+      <footprint>KiCad_450301014042:450301014042</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/DKDS-9/165080.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">450301014042</field>
+        <field name="Mouser Part Number">710-450301014042</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/450301014042?qs=wr8lucFkNMW0uepaR4R%2Fww%3D%3D</field>
+      </fields>
+      <libsource lib="450301014042" part="450301014042" description="Mini Slide Switch 10x2.5mm SPDT on / on Through Hole Slide Switch SPDT On-On 100 mA@ 42 V dc Slide"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="710-450301014042"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/450301014042?qs=wr8lucFkNMW0uepaR4R%2Fww%3D%3D"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="450301014042"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BMP581_Shield.kicad_sch"/>
+      <property name="ki_description" value="Mini Slide Switch 10x2.5mm SPDT on / on Through Hole Slide Switch SPDT On-On 100 mA@ 42 V dc Slide"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f065dd57-ea7b-4a5c-8487-febb7524080f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="450301014042" part="450301014042">
+      <description>Mini Slide Switch 10x2.5mm SPDT on / on Through Hole Slide Switch SPDT On-On 100 mA@ 42 V dc Slide</description>
+      <docs>https://datasheet.datasheetarchive.com/originals/distributors/DKDS-9/165080.pdf</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">450301014042</field>
+        <field name="Footprint">450301014042</field>
+        <field name="Datasheet">https://datasheet.datasheetarchive.com/originals/distributors/DKDS-9/165080.pdf</field>
+        <field name="Mouser Part Number">710-450301014042</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/450301014042?qs=wr8lucFkNMW0uepaR4R%2Fww%3D%3D</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">450301014042</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="61300211121" part="61300211121">
+      <description>WURTH ELEKTRONIK - 61300211121 - HEADER, 2.54MM, PIN, THT, VERTICAL, 2WAY</description>
+      <docs>https://componentsearchengine.com/Datasheets/2/61300211121.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">61300211121</field>
+        <field name="Footprint">HDRV2W110P0X254_1X2_508X254X854P</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/2/61300211121.pdf</field>
+        <field name="Height">8.54</field>
+        <field name="Mouser Part Number">710-61300211121</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300211121?qs=t4813l51qx%252B1A5GYDQxPlw%3D%3D</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">61300211121</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="61300311121" part="61300311121">
+      <description>HEADER 3 POSITION 2.54MM 0.100" VERTICLE UNSHROUDED BREAKAWAY THROUGH-HOLE</description>
+      <docs>http://katalog.we-online.de/em/datasheet/6130xx11121.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">61300311121</field>
+        <field name="Footprint">HDRV3W64P0X254_1X3_762X254X869P</field>
+        <field name="Datasheet">http://katalog.we-online.de/em/datasheet/6130xx11121.pdf</field>
+        <field name="Height">8.69</field>
+        <field name="Mouser Part Number">710-61300311121</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300311121?qs=PhR8RmCirEYxRWFJzNKsUw%3D%3D</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">61300311121</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="61301621821" part="61301621821">
+      <description>WURTH ELEKTRONIK - 61301621821 - CONNECTOR, RCPT, 16POS, 2ROW, 2.54MM</description>
+      <docs>http://katalog.we-online.de/em/datasheet/6130xx21821.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">61301621821</field>
+        <field name="Footprint">RHDR16W79P254X254_2X8_2082X508X860P</field>
+        <field name="Datasheet">http://katalog.we-online.de/em/datasheet/6130xx21821.pdf</field>
+        <field name="Height">8.6</field>
+        <field name="Mouser Part Number">710-61301621821</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61301621821?qs=GedFDFLaBXGpn7FxmOhVBw%3D%3D</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">61301621821</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ADP1715ARMZ-3_3-R7" part="ADP1715ARMZ-3.3-R7">
+      <description>Analog Devices ADP1715ARMZ-3.3-R7, LDO Regulator, 500mA, 3.3 V, +/-3%, 2.5  5.5 Vin 8-Pin, MSOP</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/ADP1715_1716.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ADP1715ARMZ-3.3-R7</field>
+        <field name="Footprint">SOP65P490X110-8N</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/ADP1715_1716.pdf</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">584-ADP1715ARMZ3.3R7</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADP1715ARMZ-3.3-R7?qs=WIvQP4zGangwvEjYWS0N2Q%3D%3D</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">ADP1715ARMZ-3.3-R7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="passive"/>
+        <pin num="2" name="IN" type="passive"/>
+        <pin num="3" name="OUT" type="passive"/>
+        <pin num="4" name="SS" type="passive"/>
+        <pin num="5" name="GND_1" type="passive"/>
+        <pin num="6" name="GND_2" type="passive"/>
+        <pin num="7" name="GND_3" type="passive"/>
+        <pin num="8" name="GND_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="MBR0520">
+      <description>20V 0.5A Schottky Power Rectifier Diode, SOD-123</description>
+      <docs>http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf</docs>
+      <footprints>
+        <fp>D*SOD?123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MBR0520</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="SD05_SOD323">
+      <description>5V, 450W Discrete Bidirectional TVS Diode, SOD-323</description>
+      <docs>https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf</docs>
+      <footprints>
+        <fp>D?SOD?323*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SD05_SOD323</field>
+        <field name="Footprint">Diode_SMD:D_SOD-323</field>
+        <field name="Datasheet">https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HSMG-C150" part="HSMG-C150">
+      <description>Broadcom2.2 V Green LED 3216 (1206)  SMD, HSMG-C150</description>
+      <docs>https://docs.broadcom.com/docs/AV02-0551EN</docs>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">HSMG-C150</field>
+        <field name="Footprint">LEDC3216X120N</field>
+        <field name="Datasheet">https://docs.broadcom.com/docs/AV02-0551EN</field>
+        <field name="Height">1.2</field>
+        <field name="Mouser Part Number">630-HSMG-C150</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMG-C150?qs=YDL0qNrpDT6zJe9nNPPiZQ%3D%3D</field>
+        <field name="Manufacturer_Name">Avago Technologies</field>
+        <field name="Manufacturer_Part_Number">HSMG-C150</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="M50-3030842" part="M50-3030842">
+      <description>1.27mm (0.05") Pitch SIL Vertical Throughboard Socket Assembly, gold, 8 contacts</description>
+      <docs>https://cdn.harwin.com/pdfs/M50-303.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M50-3030842</field>
+        <field name="Footprint">M503030842</field>
+        <field name="Datasheet">https://cdn.harwin.com/pdfs/M50-303.pdf</field>
+        <field name="Height">4.55</field>
+        <field name="Manufacturer_Name">Harwin</field>
+        <field name="Manufacturer_Part_Number">M50-3030842</field>
+        <field name="Mouser Part Number">855-M50-3030842</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Harwin/M50-3030842?qs=%252BdQmOuGyFcEVh5gBUNIiFA%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="M50-3031042" part="M50-3031042">
+      <description>1.27mm (0.05") Pitch SIL Vertical Throughboard Socket Assembly, gold, 10 contacts</description>
+      <docs>https://cdn.harwin.com/pdfs/M50-303.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M50-3031042</field>
+        <field name="Footprint">M503031042</field>
+        <field name="Datasheet">https://cdn.harwin.com/pdfs/M50-303.pdf</field>
+        <field name="Height">4.55</field>
+        <field name="Manufacturer_Name">Harwin</field>
+        <field name="Manufacturer_Part_Number">M50-3031042</field>
+        <field name="Mouser Part Number">855-M50-3031042</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Harwin/M50-3031042?qs=%252BdQmOuGyFcGr7bDrWORUuA%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="450301014042">
+      <uri>C:/Users/Julien/Documents/StationMeteo/Schematics/StationMeteo/BMP581_Shield/450301014042/450301014042/KiCad/450301014042.kicad_sym</uri>
+    </library>
+    <library logical="61300211121">
+      <uri>C:/Users/Julien/Documents/StationMeteo/Schematics/StationMeteo/BMP581_Shield/61300211121/61300211121/KiCad/61300211121.kicad_sym</uri>
+    </library>
+    <library logical="61300311121">
+      <uri>C:/Users/Julien/Documents/StationMeteo/Schematics/StationMeteo/BMP581_Shield/61300311121/61300311121/KiCad/61300311121.kicad_sym</uri>
+    </library>
+    <library logical="61301621821">
+      <uri>C:/Users/Julien/Documents/StationMeteo/Schematics/StationMeteo/BMP581_Shield/61301621821/61301621821/KiCad_61301621821/61301621821.kicad_sym</uri>
+    </library>
+    <library logical="ADP1715ARMZ-3_3-R7">
+      <uri>C:/Users/Julien/Documents/StationMeteo/Schematics/StationMeteo/BMP581_Shield/ADP1715ARMZ-3.3/ADP1715ARMZ-3.3-R7/KiCad/ADP1715ARMZ-3_3-R7.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="HSMG-C150">
+      <uri>C:/Users/Julien/Documents/StationMeteo/Schematics/StationMeteo/BMP581_Shield/HSMG-C150/HSMG-C150/KiCad/HSMG-C150.kicad_sym</uri>
+    </library>
+    <library logical="M50-3030842">
+      <uri>C:/Users/Julien/Documents/StationMeteo/Schematics/StationMeteo/BMP581_Shield/M50-3030842/M50-3030842/KiCad/M50-3030842.kicad_sym</uri>
+    </library>
+    <library logical="M50-3031042">
+      <uri>C:/Users/Julien/Documents/StationMeteo/Schematics/StationMeteo/BMP581_Shield/M50-3031042/M50-3031042/KiCad/M50-3031042.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="CSB">
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="S1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="2" name="CSB_BMP581">
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="S1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="GND_1" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="GND_2" pintype="passive"/>
+      <node ref="IC1" pin="7" pinfunction="GND_3" pintype="passive"/>
+      <node ref="IC1" pin="8" pinfunction="GND_4" pintype="passive"/>
+      <node ref="IC2" pin="5" pinfunction="GND_1" pintype="passive"/>
+      <node ref="IC2" pin="6" pinfunction="GND_2" pintype="passive"/>
+      <node ref="IC2" pin="7" pinfunction="GND_3" pintype="passive"/>
+      <node ref="IC2" pin="8" pinfunction="GND_4" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J3" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="LED1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="LED2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="INT_BMP581">
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(D1-A2)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC1" pin="1" pinfunction="EN" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="IN" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D2-A2)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="IC2" pin="1" pinfunction="EN" pintype="passive"/>
+      <node ref="IC2" pin="2" pinfunction="IN" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D6-K)">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(IC1-SS)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="SS" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(IC2-SS)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="IC2" pin="4" pinfunction="SS" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(J6-Pad2)">
+      <node ref="J6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="S1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(LED1-A)">
+      <node ref="LED1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(LED2-A)">
+      <node ref="LED2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="S3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="S2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(S3-Pad3)">
+      <node ref="S3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="S4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="17" name="PROM_RW">
+      <node ref="J2" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J3" pin="15" pinfunction="15" pintype="passive"/>
+    </net>
+    <net code="18" name="SCK">
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="19" name="SDI{slash}SDA">
+      <node ref="J3" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="S2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="20" name="SDI{slash}SDA_BMP581">
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="S2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="21" name="SDO">
+      <node ref="J3" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="S4" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="22" name="SDO_BMP581">
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="S3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="23" name="VDD">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="24" name="VDDIO">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="25" name="VDDIO_BMP581">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="IC2" pin="3" pinfunction="OUT" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="VDD_BMP581">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="IC1" pin="3" pinfunction="OUT" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="unconnected-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(J1-Pad5)">
+      <node ref="J1" pin="5" pinfunction="5" pintype="passive+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(J1-Pad7)">
+      <node ref="J1" pin="7" pinfunction="7" pintype="passive+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(J1-Pad8)">
+      <node ref="J1" pin="8" pinfunction="8" pintype="passive+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(J2-Pad5)">
+      <node ref="J2" pin="5" pinfunction="5" pintype="passive+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(J2-Pad6)">
+      <node ref="J2" pin="6" pinfunction="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(J2-Pad7)">
+      <node ref="J2" pin="7" pinfunction="7" pintype="passive+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(J2-Pad8)">
+      <node ref="J2" pin="8" pinfunction="8" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(J2-Pad10)">
+      <node ref="J2" pin="10" pinfunction="10" pintype="passive+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(J3-Pad6)">
+      <node ref="J3" pin="6" pinfunction="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(J3-Pad9)">
+      <node ref="J3" pin="9" pinfunction="9" pintype="passive+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(J3-Pad10)">
+      <node ref="J3" pin="10" pinfunction="10" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(J3-Pad11)">
+      <node ref="J3" pin="11" pinfunction="11" pintype="passive+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(J3-Pad12)">
+      <node ref="J3" pin="12" pinfunction="12" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(J3-Pad13)">
+      <node ref="J3" pin="13" pinfunction="13" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(J3-Pad14)">
+      <node ref="J3" pin="14" pinfunction="14" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(S4-Pad2)">
+      <node ref="S4" pin="2" pinfunction="2" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
